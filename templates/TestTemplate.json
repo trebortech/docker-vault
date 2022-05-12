@@ -3,6 +3,7 @@
 	"title": "Salt Minions",
 	"name": "saltme",
 	"description": "Test Template",
+	"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/duckdns.png",
 	"image": "trebortech/saltminion:latest",
 	"categories": [
 		"Other"
