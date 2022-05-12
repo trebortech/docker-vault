@@ -5,7 +5,7 @@
 	"description": "Test Template",
 	"image": "trebortech/saltminion:latest",
 	"categories": [
-		"Basic System"
+		"Other"
 	],
 	"platform": "linux",
 	"restart_policy": "unless-stopped",
