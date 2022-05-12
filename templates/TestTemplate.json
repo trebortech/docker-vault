@@ -1,16 +1,28 @@
-[{
-	"type": 1,
-	"title": "Salt Minions",
-	"name": "saltme",
-	"description": "Test Template",
-	"logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/duckdns.png",
-	"image": "trebortech/saltminion:latest",
-	"categories": [
-		"Other"
-	],
-	"platform": "linux",
-	"restart_policy": "unless-stopped",
-	"ports": [{
-		"SSH Port": "2210:22/tcp"
-	}]
-}]
+[
+  {
+    "type": 1,
+    "title": "Bitwarden RS",
+    "name": "bitwardenrs",
+    "description": "This is a Bitwarden server API implementation written in Rust compatible with upstream Bitwarden clients*, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal..",
+    "note": "This project is not associated with the Bitwarden project nor 8bit Solutions LLC.",
+    "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/bitwarden.png",
+    "image": "bitwardenrs/server:latest",
+    "categories": [
+      "Other",
+      "Tools"
+    ],
+    "platform": "linux",
+    "restart_policy": "unless-stopped",
+    "ports": [
+      {
+        "WebUI": ":80/tcp"
+      }
+    ],
+    "volumes": [
+      {
+        "container": "/config",
+        "bind": "!config/Bitwarden-rs"
+      }
+    ]
+  }
+]
