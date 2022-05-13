@@ -1,9 +1,9 @@
 [{
 	"type": 1,
-	"title": "Salt-Minions",
-	"name": "saltme",
-	"description": "Test Template",
-	"image": "trebortech/saltminion:latest",
+	"title": "Ubuntu-Base",
+	"name": "ubuntubase",
+	"description": "Base ubuntu image",
+	"image": "ubuntu-base:latest",
 	"categories": [
 		"Other"
 	],
