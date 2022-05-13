@@ -1,6 +1,6 @@
 [{
 	"type": 1,
-	"title": "Salt Minions",
+	"title": "Salt-Minions",
 	"name": "saltme",
 	"description": "Test Template",
 	"image": "trebortech/saltminion:latest",
@@ -10,6 +10,6 @@
 	"platform": "linux",
 	"restart_policy": "unless-stopped",
 	"ports": [{
-		"SSH Port": "2210:22/tcp"
+		"SSH Port": "22210:22/tcp"
 	}]
 }]
